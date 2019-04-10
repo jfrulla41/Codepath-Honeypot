@@ -48,6 +48,14 @@ Data on all was collected over at least a 24-hour period prior to this writeup.
 
 __The export of the raw data from mongodb to json is available in this repository as session.json__
 
+## Problems
+
+1. Machine did not have enough memory to finish the install script  -- fixed by changing machine type from f1-micro to g1-small.
+2. I could not connect to port 80 on the admin machine -- fixed by opening TCP port 80 in the firewall rules
+3. Not all of the MHN services were working -- fixed by looking at error logs and fixing the source code causing the error. I then restarted the services.
+4. MongoDB wasn't running initially for some reason -- fixed by restarting the service
+
+
 ## Conclusions
 
 The most frequently attacked port is port 445.
