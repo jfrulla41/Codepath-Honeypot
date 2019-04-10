@@ -35,15 +35,15 @@ Dionaea ran for a week by itsself and the rest of them were added a few days bef
 Data on all was collected over at least a 24-hour period prior to this writeup.
 
 ## Demonstration
-#### Here is the results from collecting data over a 24-hour period
+##### Here is the results from collecting data over a 24-hour period
 
-###### Overview
+#### Overview
 ![](mhn.png)
 
-###### Sensors Deployed
+##### Sensors Deployed
 ![](mhn-sensors.png)
 
-###### Attacks Example
+##### Attacks Example
 ![](mhn-attks.png)
 
 __The export of the raw data from mongodb to json is available in this repository as session.json__
