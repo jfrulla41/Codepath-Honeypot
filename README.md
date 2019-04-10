@@ -40,10 +40,10 @@ Data on all was collected over at least a 24-hour period prior to this writeup.
 #### Overview
 ![](mhn.png)
 
-##### Sensors Deployed
+#### Sensors Deployed
 ![](mhn-sensors.png)
 
-##### Attacks Example
+#### Attacks Example
 ![](mhn-attks.png)
 
 __The export of the raw data from mongodb to json is available in this repository as session.json__
