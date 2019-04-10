@@ -48,5 +48,23 @@ Data on all was collected over at least a 24-hour period prior to this writeup.
 
 __The export of the raw data from mongodb to json is available in this repository as session.json__
 
+## Conclusions
+
+The most frequently attacked port is port 445.
+port 445 is the preferred port for carrying Windows file sharing services AKA Samba over IP.
+This port is frequently attacked, because it allows hackers to potentially gain remote access to the contents
+of the hard disk directories and drives. Access to via remote Samba allows attackers to upload and run any software
+or data of their choosing without the computer owner being aware. Not only is this port insecure, but it is also exposed
+by default and is installed on every Windows system since Windows 2000.
+
+The next most frequently attacked ports are ports 80, 8088, and 8080.
+This is no surprise, because ports 80 and 8080 are for http, and are incredibly common ports to have open to the internet.
+Sometimes these ports can be exploited, depending on the server software listening for connections.
+
+The next most frequently attacked ports are ports 22 and 23.
+This is also no surprise, because ports 22 and 23 are ssh and telnet, respectively. These services are for remote
+console connections. With successful exploits to ssh and telnet services, the attacker is able to remotely access
+the console or shell for target systems. This allows them to perform virtually any action on the target machines.
+
 
 
